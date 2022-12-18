@@ -70,8 +70,6 @@
   justify-content: flex-end;
   min-height: 50px;
   margin: auto;
-  // position: fixed;
-  margin: auto;
 
   &_list {
     display: flex;
@@ -82,7 +80,7 @@
     list-style-type: none;
     margin-right: 25px;
     padding: 5px;
-    // box-shadow: inset 0px 4px 30px rgba(12, 12, 12, 0.24);
+
     &:last-child {
       margin-right: 0;
     }
@@ -96,6 +94,7 @@
   &_link {
     text-decoration: none;
     text-transform: uppercase;
+    color: rgb(0, 0, 0);
 
     &:active {
       color: rgb(129, 127, 127);
