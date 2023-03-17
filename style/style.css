@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -72,6 +76,7 @@
 }
 .nav_item:hover {
   background: rgb(235, 231, 231);
+  transition: 1s;
 }
 .nav_link {
   text-decoration: none;
@@ -159,9 +164,11 @@
 }
 .block_project__link:hover {
   background: rgb(235, 231, 231);
+  transition: 1s;
 }
 .block_project__link:active {
   color: rgb(129, 127, 127);
+  transition: 1s;
 }
 .block_project__image {
   max-width: 100px;

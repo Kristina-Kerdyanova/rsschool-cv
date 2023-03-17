@@ -1,5 +1,9 @@
 // general
 
+html {
+  scroll-behavior:smooth
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -87,6 +91,7 @@
 
     &:hover {
       background: rgb(235, 231, 231);
+      transition: 1s;
     }
 
   }
@@ -199,10 +204,12 @@
 
       &:hover {
         background: rgb(235, 231, 231);
+        transition: 1s;
       }
 
       &:active {
         color: rgb(129, 127, 127);
+        transition: 1s;
       }
     }
 
